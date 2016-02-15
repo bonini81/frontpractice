@@ -24,14 +24,26 @@ include("includes/header.php");
   <h3>I+D+I</h3>
   <ul>
   <li><strong>Front End 101 - Fase 1</strong></li> 
-  <li>Bootstrap</li>
+  <li >Bootstrap | <a href="#">Edit Progress</a></li>
+  
+ <div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+    <span class="sr-only">45% BootStrap</span>
+    45% BootStrap
+  </div>
+</div>
+
   <li>LESS</li>
   <li>Grunt</li>
   <li>GIT and GitHub</li>
+    <li>Performance CDN 101</li>
     <li><strong>Front End 101 - Fase 2</strong></li> 
       <li>Angular JS</li>
-      
+ <li><strong>BackEnd End 101 - Fase 1</strong></li>      
+<li>Laravel Basics</li>
 
+ <li><strong>Wordpress Advanced - Fase 1</strong></li>      
+<li>Plugins 101</li>
   </ul>
 
    <h3>ESPIRITUAL</h3>
