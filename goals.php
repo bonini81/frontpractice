@@ -27,9 +27,9 @@ include("includes/header.php");
   <li >Bootstrap | <a href="#">Edit Progress</a></li>
   
  <div class="progress">
-  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
-    <span class="sr-only">45% BootStrap</span>
-    45% BootStrap
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">
+    <span class="sr-only">65% BootStrap</span>
+    65% BootStrap
   </div>
 </div>
 

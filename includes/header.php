@@ -64,6 +64,12 @@
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
             <li><a href="goals.php">Goals</a></li>
+             <li><a href="tracking.php">Tracking</a></li>
+             <ul>
+             <li><a href="investiga.php">I+D</a></li>
+             <li><a href="investiga.php">Books</a></li>
+
+             </ul>
             <li><a href="#">Analytics</a></li>
             <li><a href="#">Export</a></li>
           </ul>
