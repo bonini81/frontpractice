@@ -42,7 +42,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">PUGLE - Intranet</a>
+         <a class="navbar-brand" href="#">PUGLE - Intranet</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
@@ -67,7 +67,7 @@
              <li><a href="tracking.php">Tracking</a></li>
              <ul>
              <li><a href="investiga.php">I+D</a></li>
-             <li><a href="investiga.php">Books</a></li>
+             <li><a href="books.php">Books</a></li>
 
              </ul>
             <li><a href="#">Analytics</a></li>
@@ -80,10 +80,6 @@
             <li><a href="">Another nav item</a></li>
             <li><a href="">More navigation</a></li>
           </ul>
-          <ul class="nav nav-sidebar">
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-          </ul>
+        
         </div>
  

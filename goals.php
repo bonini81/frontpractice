@@ -21,10 +21,19 @@ include("includes/header.php");
 
  <h3>TRAVEL</h3>
 
+
+
   <h3>I+D+I</h3>
+
+            <button type="button" class="btn btn-default" aria-label="Left Align">
+
+ I+D Task <span class="glyphicon glyphicon-plus-sign"></span>
+</button>
+<br/><br/>
+
   <ul>
   <li><strong>Front End 101 - Fase 1</strong></li> 
-  <li >Bootstrap | <a href="#">Edit Progress</a></li>
+  <li >Bootstrap | <span class="glyphicon glyphicon-edit" style="color:#428bca;"></span><a href="#"> Edit Progress</a></li>
   
  <div class="progress">
   <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100" style="width: 65%">

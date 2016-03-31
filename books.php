@@ -23,7 +23,7 @@ include("includes/header.php");
 
           <button type="button" class="btn btn-default" aria-label="Left Align" style="background-color:#428bca; color: #fff;">
 
- Add Task <span class="glyphicon glyphicon-plus-sign"></span>
+ Add Book <span class="glyphicon glyphicon-plus-sign"></span>
 </button>
 
 <br/><br/>
@@ -34,43 +34,43 @@ include("includes/header.php");
               <thead>
                 <tr>
                   <th>#</th>
-                  <th>Fecha</th>
+                  <th>Title</th>
                   <th>Categoria</th>
-                  <th>To do</th>
-                     <th>Priority</th>
-                  <th>So?</th>
+                  <th>Priority</th>
+                  <th>Done?</th>
+                  <th>Comments</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
                   <td>1</td>
-                  <td>29/03/2016</td>
-                  <td>Front</td>
-                  <td>Add buttons icons with Bootstrap, get Familiar.</td>
-                    <td>Normal</td>
-                  <td>Not Yet</td>
+                  <td>Sobreviviendo a Pablo Escobar</td>
+                  <td>Life Skills</td>
+                  <td>Normal</td>
+                    <td>Yes - Enero</td>
+                  <td>Cool, Manso como una paloma, astuto como una serpiente.</td>
                 </tr>
                 <tr>
                   <td>2</td>
-                  <td>29/03/2016</td>
-                  <td>Version Control</td>
-                  <td>Learn last shit of Git, before closing Plazti account for a while.</td>
-                      <td>High</td>
-                  <td>Not Yet</td>
+                  <td>Sangre, Traicion y Muerte</td>
+                  <td>Business</td>
+                  <td>Normal</td>
+                  <td>Yes - Febrero</td>
+                  <td>Awesome how to face fear and business.</td>
                 </tr>
                 <tr>
                   <td>3</td>
-                  <td>29/03/2016</td>
-                    <td>BackEnd</td>
-                  <td>Think about Classes and objetcts to use with PHP</td>
-                      <td>Normal</td>
-                  <td>Not Yet</td>
+                  <td>Mindset</td>
+                    <td>LifeSkills</td>
+                  <td>Normal</td>
+                      <td>Not Yet</td>
+                  <td>-</td>
                 </tr>
                 <tr>
                   <td>4</td>
                   <td>29/03/2016</td>
                   <td>Version Control</td>
-                  <td>Can git save databases, if so how? and Checkout WP video in PLatzi</td>
+                  <td></td>
                       <td>High</td>
 
                   <td>Not Yet</td>
@@ -79,7 +79,7 @@ include("includes/header.php");
                   <td>5</td>
                   <td>29/03/2016</td>
                   <td>BackEnd</td>
-                  <td>Implement DB in here and some CRUD shit</td>
+                  <td></td>
                       <td>Normal</td>
                   <td>Not Yet</td>
                 </tr>
@@ -87,21 +87,13 @@ include("includes/header.php");
                   <td>6</td>
                   <td>29/03/2016</td>
                   <td>UI</td>
-                  <td>Check Responsive UI in this project, menus and tables not responsive</td>
+                  <td></td>
                   
                       <td>High</td>
                   <td>Not Yet</td>
                 </tr>
            
-                 <tr>
-                  <td>7</td>
-                  <td>30/03/2016</td>
-                  <td>CSS</td>
-                  <td>Start doing some Less and Grunt tasks with this App</td>
-                  
-                      <td>High</td>
-                  <td>Not Yet</td>
-                </tr>    
+        
               </tbody>
             </table>
           </div>
