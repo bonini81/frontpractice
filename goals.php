@@ -22,7 +22,7 @@ include("includes/header.php");
  <h3>TRAVEL</h3>
 
 
-
+<div class="alert alert-danger hide" role="alert">Way to go HotShot</div>
   <h3>I+D+I</h3>
 
             <button type="button" class="btn btn-default" aria-label="Left Align">

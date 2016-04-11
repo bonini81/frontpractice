@@ -47,7 +47,7 @@
         <div id="navbar" class="navbar-collapse collapse">
           <ul class="nav navbar-nav navbar-right">
             <li><a href="#">Dashboard</a></li>
-            <li><a href="#">Settings</a></li>
+            <li><a href="#">Unfinished Tasks <span class="badge">7</span></a></li>
             <li><a href="#">Profile</a></li>
             <li><a href="#">Help</a></li>
           </ul>
@@ -67,14 +67,15 @@
              <li><a href="tracking.php">Tracking</a></li>
              <ul>
              <li><a href="investiga.php">I+D</a></li>
+                <li><a href="investiga.php">I+D Notes</a></li>
              <li><a href="books.php">Books</a></li>
 
              </ul>
-            <li><a href="#">Analytics</a></li>
+            <li><a href="#">SRI</a></li>
             <li><a href="#">Export</a></li>
           </ul>
           <ul class="nav nav-sidebar">
-            <li><a href="">Nav item</a></li>
+            <li><a href="adminarea.php">Admin Area</a></li>
             <li><a href="">Nav item again</a></li>
             <li><a href="">One more nav</a></li>
             <li><a href="">Another nav item</a></li>
