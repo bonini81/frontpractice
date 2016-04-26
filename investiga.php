@@ -13,16 +13,20 @@ include("includes/header.php");
   <li class="active">I+D</li>
 </ol>
 
+<script language="JavaScript">
+
+function setVisibility(id, visibility) {
+document.getElementById(id).style.display = visibility;
+}
+</script>
+
          
 
          <!-- Example in bootstrap of tables, http://getbootstrap.com/examples/dashboard/# -->
 
-            <button type="button" class="btn btn-default" aria-label="Left Align">
+     
 
- Add Category <span class="glyphicon glyphicon-plus-sign"></span>
-</button>
-
-          <button type="button" class="btn btn-default" aria-label="Left Align" style="background-color:#428bca; color: #fff;">
+          <button type="button" class="btn btn-default" aria-label="Left Align" style="background-color:#428bca; color: #fff;" onclick="setVisibility('mueve', 'block');";>
 
  Add Task <span class="glyphicon glyphicon-plus-sign"></span>
 </button>
@@ -30,8 +34,25 @@ include("includes/header.php");
  <p>Unfinished Tasks <span class="badge">7</span></p>
 <br/>
 
+<!-- Start Search Area -->
+
+  <div class="col-lg-4" >
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" style="background-color:#428bca; color: #fff;">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Busca I+D Shit...">
+    <!-- /input-group -->
+    </div> </div>
+    <br/>
+
+<!-- End Search Area -->
+
 <!-- Form Area -->
 
+
+
+<section id="mueve">
 <form>
 
 <fieldset class="form-group">
@@ -39,19 +60,15 @@ include("includes/header.php");
 
     <select class="form-control" id="exampleSelect1">
     <?php
-         $showme = new crudmum;
-         $showme->read('trackboards', 'priority');
+         $showme = new crudmum($mysqli); 
+         $showme->runQuery('intranet_cat', 'categorias' );
+         ?>
 
-    // output data of each row
-while($fila2 = $showme->fila){
-      ?>
-      <option><?php echo $showme->fila["sub_cat"]; ?></option>
-      <?php } ?>
     </select>
   </fieldset>
 
 
-
+ 
 <fieldset class="form-group">
     <label for="exampleSelect1">Priority:</label>
     <select class="form-control" id="exampleSelect1">
@@ -84,10 +101,14 @@ while($fila2 = $showme->fila){
 
  
 
-  <button type="submit" class="btn btn-primary">Submit</button>
+  <button type="submit" class="btn btn-primary" id="hide">Submit</button>
 </form>
+<br/>
+<a href="#" onclick="setVisibility('mueve', 'none');">Hide</a>
+</section>
 
 <!-- End Form Area -->
+
 <br/>
 <br/ style="clear:both;">
 
@@ -112,7 +133,7 @@ while($fila2 = $showme->fila){
                   <td>Add buttons icons with Bootstrap, get Familiar.</td>
                     <td>Normal</td>
                   <td>Not Yet</td>
-                  <td>-</td>
+                  <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
                 <tr>
                   <td>2</td>
@@ -121,7 +142,7 @@ while($fila2 = $showme->fila){
                   <td>Learn last shit of Git, before closing Plazti account for a while.</td>
                       <td>High</td>
                   <td>Not Yet</td>
-                   <td>-</td>
+                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -130,7 +151,7 @@ while($fila2 = $showme->fila){
                   <td>Think about Classes and objetcts to use with PHP::http://goo.gl/tnMwE</td>
                       <td>Normal</td>
                   <td>Not Yet</td>
-                   <td>-</td>
+                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
                 <tr>
                   <td>4</td>
@@ -140,7 +161,7 @@ while($fila2 = $showme->fila){
                       <td>High</td>
 
                   <td>Not Yet</td>
-                   <td>-</td>
+                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
                 <tr>
                   <td>5</td>
@@ -149,7 +170,7 @@ while($fila2 = $showme->fila){
                   <td>Implement DB in here and some CRUD shit</td>
                       <td>Normal</td>
                   <td>Not Yet</td>
-                   <td>-</td>
+                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
                 <tr>
                   <td>6</td>
@@ -159,7 +180,7 @@ while($fila2 = $showme->fila){
                   
                       <td>High</td>
                   <td>Not Yet</td>
-                   <td>-</td>
+                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
            
                  <tr>
@@ -171,6 +192,7 @@ while($fila2 = $showme->fila){
                       <td>High</td>
                   <td>Not Yet</td>
                    <td>-</td>
+                   <td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>    
               </tbody>
             </table>
@@ -185,3 +207,7 @@ while($fila2 = $showme->fila){
 include("includes/footer.php");
 
   ?>
+
+
+
+  

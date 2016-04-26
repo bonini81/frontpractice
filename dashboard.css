@@ -106,3 +106,16 @@ body {
 
 
 .alert .alert-danger .hide {display: none;}
+
+/* My CSS */
+
+#mueve {
+
+  display:none;
+}
+
+.divide {
+  border-top: 1px solid #428bca;
+}
+
+/* End My CSS */
