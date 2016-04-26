@@ -118,4 +118,40 @@ body {
   border-top: 1px solid #428bca;
 }
 
+/* Side bar Styles */
+.sidebar {
+background-color: #1B1E24;
+}
+
+.profile {
+  width: 100%;
+  background-color: #000;
+}
+.profile-data-name  {
+  color: #fff;
+  text-align: center;
+}
+.profile-data-title {
+color: #999;
+text-align: center;
+}
+.profile-image { text-align: center; }
+
+.profile-image img {
+
+    border: 3px solid #FFF;
+    -moz-border-radius: 20%;
+    -webkit-border-radius: 20%;
+    border-radius: 20%;
+}   
+
+/* END Side bar Styles */
+
+/* Styles Header Area */
+.badge { 
+  background-color: #428bca; 
+}
+
+/* END Styles Header Area */
+
 /* End My CSS */

@@ -2,8 +2,7 @@
 <?php
 include("functions.php");
 include("includes/header.php"); 
-// Example http://themifycloud.com/demos/templates/joli/
-//http://www.strapui.com/?utm_source=startangular&utm_medium=startangular&utm_campaign=StrapUI
+
 ?>
 
 
@@ -67,6 +66,9 @@ include("includes/header.php");
 <br/>
 
 
+
+
+   
 
 
 <?php

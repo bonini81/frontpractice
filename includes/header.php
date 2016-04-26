@@ -34,6 +34,10 @@
     <body>
 
     <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+
+
       <div class="container-fluid">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -61,6 +65,25 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-sm-3 col-md-2 sidebar">
+<!-- Start Profile Area -->
+           <div class="profile">  <br/>
+                            <div class="profile-image">
+                                <img src="img/profile1.jpg" alt="Andres Dominguez Bonini" width="105px" height="105px"  />
+                            </div>
+                            <br/>
+                            <div class="profile-data">
+
+                                <div class="profile-data-name">Bonini81</div>
+                                <div class="profile-data-title">Web Developer/SEO</div>
+                            </div><br/>
+                            <div class="profile-controls">
+                                <a href="pages-profile.html" class="profile-control-left"><span class="fa fa-info"></span></a>
+                                <a href="pages-messages.html" class="profile-control-right"><span class="fa fa-envelope"></span></a>
+                            </div>
+                        </div>    
+
+<!-- END Profile Area -->
+
           <ul class="nav nav-sidebar">
             <li class="active"><a href="#">Overview <span class="sr-only">(current)</span></a></li>
             <li><a href="goals.php">Goals</a></li>
