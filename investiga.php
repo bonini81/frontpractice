@@ -26,8 +26,7 @@ document.getElementById(id).style.display = visibility;
 
      
 
-          <button type="button" class="btn btn-default" aria-label="Left Align" style="background-color:#428bca; color: #fff;" onclick="setVisibility('mueve', 'block');";>
-
+<button type="button" class="btn btn-default" aria-label="Left Align" style="background-color:#428bca; color: #fff;" onclick="setVisibility('mueve', 'block');";>
  Add Task <span class="glyphicon glyphicon-plus-sign"></span>
 </button>
 <br/><br/>
@@ -36,7 +35,7 @@ document.getElementById(id).style.display = visibility;
 
 <!-- Start Search Area -->
 
-  <div class="col-lg-4" >
+  <div class="col-lg-4 izki" >
     <div class="input-group">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button" style="background-color:#428bca; color: #fff;">Go!</button>
@@ -51,7 +50,7 @@ document.getElementById(id).style.display = visibility;
 <!-- Form Area -->
 
 
-
+ <br/> <br/>
 <section id="mueve">
 <form>
 
@@ -62,6 +61,9 @@ document.getElementById(id).style.display = visibility;
     <?php
          $showme = new crudmum($mysqli); 
          $showme->runQuery('intranet_cat', 'categorias' );
+
+
+
          ?>
 
     </select>
@@ -126,6 +128,7 @@ document.getElementById(id).style.display = visibility;
                 </tr>
               </thead>
               <tbody>
+              <!-- Start with 1st Row -->
                 <tr>
                   <td>1</td>
                   <td>29/03/2016</td>
@@ -135,6 +138,8 @@ document.getElementById(id).style.display = visibility;
                   <td>Not Yet</td>
                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
                 </tr>
+
+                  <!-- END with 1st Row -->
                 <tr>
                   <td>2</td>
                   <td>29/03/2016</td>

@@ -36,10 +36,9 @@
     "grunt-contrib-compress": "~0.14.0",
     "grunt-contrib-concat": "~0.5.1",
     "grunt-contrib-connect": "~0.11.2",
-    
     "grunt-contrib-copy": "~0.8.0",
     "grunt-contrib-csslint": "~0.5.0",
-    "grunt-contrib-cssmin": "~0.14.0",
+    "grunt-contrib-cssmin": "^1.0.1",
     "grunt-contrib-htmlmin": "~0.6.0",
     "grunt-contrib-jade": "~0.15.0",
     "grunt-contrib-jshint": "~0.11.2",
@@ -57,7 +56,8 @@
     "load-grunt-tasks": "~3.3.0",
     "markdown-it": "^5.0.0",
     "npm-shrinkwrap": "^200.4.0",
-    "time-grunt": "^1.2.1"
+    "time-grunt": "^1.2.1",
+    "grunt-contrib-cssmin v1.0.1"
   },
   "engines": {
     "node": ">=0.10.1"

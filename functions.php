@@ -97,6 +97,10 @@ $investiga->inserta($maitanesex , $amaiarascon, $sharonstone, $diana, $bitch, $b
 // other good examples http://www.tutorialspoint.com/php/php_object_oriented.htm
 
 
+
+
+
+
 ?>
 
 
