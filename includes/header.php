@@ -28,7 +28,19 @@
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <![endif]--> 
+
+ 
+   
+    <!-- Scripts for Jquery Elements this case UI Elements -->
+ <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+
+ <!--This Google Jquery script was at footer before had to place it here to make UI elements work-->   
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+  <!-- END Jquery Head Elements -->
+
+
   </head>
 
     <body>
@@ -99,10 +111,8 @@
           </ul>
           <ul class="nav nav-sidebar">
             <li><a href="adminarea.php">Admin Area</a></li>
-            <li><a href="">Nav item again</a></li>
-            <li><a href="">One more nav</a></li>
-            <li><a href="">Another nav item</a></li>
-            <li><a href="">More navigation</a></li>
+            <li><a href="test.php">Test</a></li>
+            
           </ul>
         
         </div>

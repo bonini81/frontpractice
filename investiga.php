@@ -7,12 +7,14 @@ include("includes/header.php");
  <div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
           <h1 class="page-header"><span class="glyphicon glyphicon-lab"></span> I+D - TrackBoard </h1>
 
+<article class="col-lg-6">
 <ol class="breadcrumb">
   <li><a href="#">Home</a></li>
   <li><a href="#">Tracking</a></li>
   <li class="active">I+D</li>
-</ol>
-
+</ol> 
+</article>
+<br/ style="clear:both;">
 <script language="JavaScript">
 
 function setVisibility(id, visibility) {
@@ -20,38 +22,22 @@ document.getElementById(id).style.display = visibility;
 }
 </script>
 
-         
-
+        
          <!-- Example in bootstrap of tables, http://getbootstrap.com/examples/dashboard/# -->
 
-     
 
 <button type="button" class="btn btn-default" aria-label="Left Align" style="background-color:#428bca; color: #fff;" onclick="setVisibility('mueve', 'block');";>
  Add Task <span class="glyphicon glyphicon-plus-sign"></span>
 </button>
 <br/><br/>
- <p>Unfinished Tasks <span class="badge">7</span></p>
-<br/>
-
-<!-- Start Search Area -->
-
-  <div class="col-lg-4 izki" >
-    <div class="input-group">
-      <span class="input-group-btn">
-        <button class="btn btn-default" type="button" style="background-color:#428bca; color: #fff;">Go!</button>
-      </span>
-      <input type="text" class="form-control" placeholder="Busca I+D Shit...">
-    <!-- /input-group -->
-    </div> </div>
-    <br/>
-
-<!-- End Search Area -->
 
 <!-- Form Area -->
 
 
- <br/> <br/>
+
 <section id="mueve">
+
+ <h3>Insert Area:</h3>
 <form>
 
 <fieldset class="form-group">
@@ -61,11 +47,7 @@ document.getElementById(id).style.display = visibility;
     <?php
          $showme = new crudmum($mysqli); 
          $showme->runQuery('intranet_cat', 'categorias' );
-
-
-
          ?>
-
     </select>
   </fieldset>
 
@@ -107,14 +89,105 @@ document.getElementById(id).style.display = visibility;
 </form>
 <br/>
 <a href="#" onclick="setVisibility('mueve', 'none');">Hide</a>
+<br/><br/>
 </section>
 
+
 <!-- End Form Area -->
+
+<!-- Caja1 -->
+<div class="row">
+<div class="col-lg-3">
+ <p>Unfinished Tasks <span class="badge">7</span></p>
+</div>
+
+<!-- Start Search Area -->
+
+  <div class="col-lg-9 izki" >
+    <div class="input-group">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button" style="background-color:#428bca; color: #fff;">Go!</button>
+      </span>
+      <input type="text" class="form-control" placeholder="Busca I+D Shit...">
+    <!-- /input-group -->
+    </div> </div>
+    <br/> <br/>
+
+</div><!-- END Row -->
+<!-- End Search Area -->
+
+<!-- END Caja1 -->
+
+<!-- Start Edit Form -->
+<section id="mueve2">
+<h3>Edit Form Area:</h3>
+
+
+
+  <fieldset class="form-group" style="display:none;">
+   <label for="exampleTextarea">Hidden ID:</label>
+    <textarea class="form-control" id="exampleTextarea" rows="1"></textarea>
+  </fieldset>
+
+<form>
+
+<fieldset class="form-group">
+    <label for="exampleSelect1">Seleccione Categoría:</label>
+
+    <select class="form-control" id="exampleSelect1">
+    <?php
+         $showme = new crudmum($mysqli); 
+         $showme->runQuery('intranet_cat', 'categorias' );
+         ?>
+    </select>
+  </fieldset>
+
+
+ 
+<fieldset class="form-group">
+    <label for="exampleSelect1">Priority:</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>High</option>
+      <option>Middle</option>
+      <option>Low</option>
+    </select>
+  </fieldset>
+ 
+
+<fieldset class="form-group">
+    <label for="exampleSelect1">So?</label>
+    <select class="form-control" id="exampleSelect1">
+      <option>Done</option>
+      <option>In the Freezer</option>
+      <option>In Progress</option>
+    </select>
+  </fieldset>
+
+  <fieldset class="form-group">
+    <label for="exampleTextarea">To do:</label>
+    <textarea class="form-control" id="exampleTextarea" rows="2"></textarea>
+  </fieldset>
+
+
+  <fieldset class="form-group">
+    <label for="exampleTextarea">Comments:</label>
+    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+  </fieldset>
+
+ 
+
+  <button type="submit" class="btn btn-primary" id="hide">Submit</button>
+</form>
+<br/>
+<a href="#" onclick="setVisibility('mueve2', 'none');">Hide</a>
+
+</section>
+<!-- End Edit Form Area -->
 
 <br/>
 <br/ style="clear:both;">
 
-          <div class="table-responsive">
+          <div class="table-responsive caja1" >
             <table class="table table-striped">
               <thead>
                 <tr>
@@ -136,7 +209,7 @@ document.getElementById(id).style.display = visibility;
                   <td>Add buttons icons with Bootstrap, get Familiar.</td>
                     <td>Normal</td>
                   <td>Not Yet</td>
-                  <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
+                  <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#" onclick="setVisibility('mueve2', 'block');";> Edit</a></td>
                 </tr>
 
                   <!-- END with 1st Row -->
@@ -147,7 +220,7 @@ document.getElementById(id).style.display = visibility;
                   <td>Learn last shit of Git, before closing Plazti account for a while.</td>
                       <td>High</td>
                   <td>Not Yet</td>
-                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#"> Edit</a></td>
+                   <td>-</td><td><span class="glyphicon glyphicon-edit" style="color:#428bca;"><a href="#" onclick="setVisibility('mueve2', 'block');";> Edit</a></td>
                 </tr>
                 <tr>
                   <td>3</td>
@@ -202,9 +275,8 @@ document.getElementById(id).style.display = visibility;
               </tbody>
             </table>
           </div>
-     </div>
 
-
+<br/>
 
 
   <?php

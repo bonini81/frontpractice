@@ -73,6 +73,7 @@ body {
 
 .main {
   padding: 20px;
+  background-color: #ecf0f1;
 }
 @media (min-width: 768px) {
   .main {
@@ -107,9 +108,9 @@ body {
 
 .alert .alert-danger .hide {display: none;}
 
-/* My CSS */
+/* My CSS Bonini81 */
 
-#mueve {
+#mueve, #mueve2 {
 
   display:none;
 }
@@ -157,3 +158,9 @@ text-align: center;
 .col-lg-4.izki { padding-left: 0px; }
 
 /* End My CSS */
+
+.caja1 {
+
+  background-color: #fff;
+  border: 1px solid #e5e5e5;
+}

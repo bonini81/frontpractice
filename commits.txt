@@ -1,0 +1,95 @@
+commit 98b1b73d1bcda21401c91922025872f6d389608b
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Fri Apr 29 22:52:46 2016 -0500
+
+    Before doing tests with Jquery Elements
+
+commit 1d735cf1714b62450b4fbcd4162b114df6c02943
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Mon Apr 25 22:05:11 2016 -0500
+
+    Add Sign In UI, gave some  dark styles to the navba and even pprofile pic, looking awesome
+
+commit a68c5bc0576e8434c6e7d8169c0fc24393aca928
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Mon Apr 25 19:42:04 2016 -0500
+
+    Well lots of changes, Class workings for crud calls and lots of improvements, also DB backup on db folder
+
+commit fe2ce85d316acf33399f3a8997531389b4af1e52
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Sun Apr 10 21:41:16 2016 -0500
+
+    DB backup added
+
+commit f41d7cc9a0ddd9511736295460fc577369ce6157
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Sun Apr 10 21:35:39 2016 -0500
+
+    New Classes man and adding a Form to Crud data
+
+commit 1799b5013afa3f725083ea7a15413ae3c3153d5e
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Wed Mar 30 22:20:28 2016 -0500
+
+    Well added new stuff like books.php and addes new icon and styled them
+
+commit a1eb00350dc5db0c6bc939c52c5eb15c7fba97e4
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Tue Mar 29 01:17:19 2016 -0500
+
+    Well updates on previous commit
+
+commit 1ff77dec784245ef7b85d63087139ec157d75b1b
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Tue Mar 29 00:52:51 2016 -0500
+
+    Well added new pages like tracking and its trees and learning to use icons
+
+commit e5e3f4a1e73a5aa29ba322026eef07062d7f6206
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Sun Feb 14 23:34:15 2016 -0500
+
+    Test upload from local to remote command with small update on a file biatch
+
+commit c6082f4ba4469eca977e7a8f4d43698e6215bc35
+Author: bonini81 <andresdominguez81@gmail.com>
+Date:   Sun Feb 14 23:30:48 2016 -0500
+
+    Update and rename git-test to git-test.html
+
+commit 7b23b97f36525430c6cf2c4fb8e4407799f2342f
+Author: bonini81 <andresdominguez81@gmail.com>
+Date:   Sun Feb 14 23:21:59 2016 -0500
+
+    Creating a git test file
+
+commit 183e98e090488b0daba192f9c3ddf4e59127b2a0
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Sun Jan 24 21:19:39 2016 -0500
+
+    Created goals.php and added some content
+
+commit 360086ea1d2b5f4ec174592a220b77af0c73241b
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Sat Jan 23 23:51:17 2016 -0500
+
+    Fixed the header and footer issues
+
+commit 443186e18ef8e7e9b55ebae4dd78a15a6ab81395
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Wed Jan 20 22:00:12 2016 -0500
+
+    Added the header and footer php files
+
+commit c947762f4a43417b6ca6481b17b5c014782072c6
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Wed Jan 20 21:45:21 2016 -0500
+
+    First change in title tag no else
+
+commit 1a032bcab67ada8d7dca932223036d675b38be71
+Author: Andrés Domínguez <pugle81@gmail.com>
+Date:   Wed Jan 20 21:21:19 2016 -0500
+
+    Initial Commit, no Custom shit, just starting template

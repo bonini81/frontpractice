@@ -1,7 +1,7 @@
 body {
   padding-top: 40px;
   padding-bottom: 40px;
-  background-color: #eee;
+  background-image: url("img/fondoreg.jpg");
 }
 
 .form-signin {
@@ -37,4 +37,10 @@ body {
   margin-bottom: 10px;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.container.registro {
+  background-color: #ecf0f1;
+  height: 350px;
+  width: 450px;
 }
