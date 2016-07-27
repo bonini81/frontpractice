@@ -187,8 +187,15 @@ document.getElementById(id).style.display = visibility;
 <br/>
 <br/ style="clear:both;">
 
-          <div class="table-responsive caja1" >
-            <table class="table table-striped">
+<!-- Menu Test -->
+<header class="bs-docs-nav navbar navbar-static-top" id="top"> <div class="container-fluid"> 
+<div class="navbar-header"> 
+<button aria-controls="bs-navbar" aria-expanded="false" class="collapsed navbar-toggle" data-target="#bs-navbar" data-toggle="collapse" type="button"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="../" class="navbar-brand">Bootstrap</a> </div> <nav class="collapse navbar-collapse" id="bs-navbar"> <ul class="nav navbar-nav"> <li> <a href="../getting-started/" >Getting started</a> </li> <li> <a href="../css/" >CSS</a> </li> <li> <a href="../components/" >Components</a> </li> <li> <a href="../javascript/" >JavaScript</a> </li> <li class="active"> <a href="../customize/" >Customize</a> </li> </ul> <ul class="nav navbar-nav navbar-right"> <li><a href="http://themes.getbootstrap.com" onclick='ga("send","event","Navbar","Community links","Themes")'>Themes</a></li> <li><a href="http://expo.getbootstrap.com" onclick='ga("send","event","Navbar","Community links","Expo")'>Expo</a></li> <li><a href="http://blog.getbootstrap.com" onclick='ga("send","event","Navbar","Community links","Blog")'>Blog</a></li> </ul> </nav> 
+</div>  </header> 
+
+<!-- End Menu Test -->
+     <div class="table-responsive">
+            <table class="table caja1">
               <thead>
                 <tr>
                   <th>#</th>
@@ -274,7 +281,7 @@ document.getElementById(id).style.display = visibility;
                 </tr>    
               </tbody>
             </table>
-          </div>
+        </div>
 
 <br/>
 
